@@ -5,6 +5,8 @@ A simple Cloudant replication monitor that polls a single replication doc to see
 1. [Get a replication scheduler doc](https://cloud.ibm.com/apidocs/cloudant?code=node#getschedulerdocument)
 2. [Get replication scheduler job](https://cloud.ibm.com/apidocs/cloudant?code=node#getschedulerjob)
 
+This repository is designed to be a jumping off point to allow you to create your own monitoring solution. You may wish to perform some action when a replication is found to have failed (look in source code for comments).
+
 ## Installation
 
 Clone this repo. Install dependencies with:
