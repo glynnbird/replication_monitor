@@ -1,0 +1,17 @@
+{
+  "name": "replication_monitor",
+  "version": "1.0.0",
+  "description": "A template Cloudant replicaton monitor to check whether a replication job is running.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "Cloudant"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ibm-cloud/cloudant": "^0.10.0"
+  }
+}
