@@ -38,16 +38,16 @@ where `<docId>` is `_id` of a document in Cloudant's `_replicator` database.
 e.g.
 
 ```sh
-npm run start my_replication
+npm run start my_replication_doc_id
 ```
 
-If everthing is working, the output should be of this form:
+If everything is working, the output should be of the form:
 
 ```sh
 Replication is working: job id someid+continuous+create_target
 {
   "database": "_replicator",
-  "docId": "myreplication",
+  "docId": "my_replication_doc_id",
   "history": [
     {
       "timestamp": "2024-08-12T10:03:49Z",
