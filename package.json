@@ -12,6 +12,6 @@
   "author": "Glynn Bird <glynn.bird@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "@ibm-cloud/cloudant": "^0.10.0"
+    "@ibm-cloud/cloudant": "^0.12.24"
   }
 }
